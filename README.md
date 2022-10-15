@@ -1,14 +1,14 @@
 # Nomad "Hello World!"
 
-This is the companion sample project to running your own deployment infrastructure with Traefik and Nomad.
+This is the companion sample project for running your own deployment infrastructure with Traefik and Nomad.
 
-https://www.larrymyers.com/posts/nomad-and-traefik/
+Blog Post: https://www.larrymyers.com/posts/nomad-and-traefik/
 
 You can see it running at: https://hello.larrymyers.com/
 
 This project demonstrates the following:
 
-- Using the git commit short hash as a version
+- Using the git commit short hash as a version.
 - Using docker multi-stage builds to create slim images.
 - Using Nomad environment variables at runtime to bind the server to the correct hostname.
 - Using Nomad secure variables to provide secrets via environment variable.
